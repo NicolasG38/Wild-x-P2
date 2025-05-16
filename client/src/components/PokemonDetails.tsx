@@ -104,7 +104,7 @@ function PokemonDetails() {
   if (!pokemon) return <p>Loading...</p>; // Affichage de "loading" tant que les données ne sont pas chargées
 
   return (
-    <section className="pokemon-details">
+    <section className="pokemon-details" id="top">
       <section className="pokemon-header">
         <section>
           <h1 className="pokemon-name-title">
@@ -197,7 +197,7 @@ function PokemonDetails() {
             {evolution.map((evo) => (
               <>
                 <section className="pokemon-evo-img-name" key={evo.name}>
-                  <Link to={`/pokemonDetails/${evo.name}`}>
+                  <Link to={{ pathname: `/pokemonDetails/${evo.name}` }}>
                     <img
                       className="pokemon-evo-img"
                       src={evo.image}
