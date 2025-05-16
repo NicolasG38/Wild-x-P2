@@ -39,7 +39,7 @@ function Header() {
           <Link to={"/"}>
             <img
               className="logo"
-              src="public/assets/images/WildexlogoV1.png"
+              src="/images/WildexlogoV1.png"
               alt="Logo du site"
             />
           </Link>
