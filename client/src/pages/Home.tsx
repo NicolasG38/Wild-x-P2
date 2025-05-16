@@ -1,5 +1,6 @@
 import "../App.css";
 import { Link } from "react-router";
+import Kanto from "../assets/images/regionsMap/KantoG1.png";
 
 function Home() {
   return (
@@ -25,11 +26,7 @@ function Home() {
         {" "}
         <figure>
           <Link to={"/Pokemons/1"}>
-            <img
-              className="regionImg"
-              src="./src/assets/images/regionsMap/KantoG1.png"
-              alt="Region Kanto"
-            />
+            <img className="regionImg" src="{Kanto}" alt="Region Kanto" />
           </Link>
           <figcaption>
             <h2 className="title-map">Kanto - G1 - 1996</h2>
