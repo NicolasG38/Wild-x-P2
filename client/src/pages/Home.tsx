@@ -27,7 +27,7 @@ function Home() {
           <Link to={"/Pokemons/1"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/KantoG1.png"
+              src="/assets/images/regionsMap/KantoG1.png"
               alt="Region Kanto"
             />
           </Link>
@@ -39,7 +39,7 @@ function Home() {
           <Link to={"/Pokemons/2"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/JhotoG2.jpg"
+              src="/assets/images/regionsMap/JhotoG2.jpg"
               alt="Region Johto"
             />
           </Link>
@@ -51,7 +51,7 @@ function Home() {
           <Link to={"/Pokemons/3"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/HoennG3.png"
+              src="/assets/images/regionsMap/HoennG3.png"
               alt="Region Hoenn"
             />
           </Link>
@@ -63,7 +63,7 @@ function Home() {
           <Link to={"/Pokemons/4"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/SinnohG4.png"
+              src="/assets/images/regionsMap/SinnohG4.png"
               alt="Region Sinnoh"
             />
           </Link>
@@ -75,7 +75,7 @@ function Home() {
           <Link to={"/Pokemons/5"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/UnysG5.png"
+              src="/assets/images/regionsMap/UnysG5.png"
               alt="Region Unys"
             />
           </Link>
@@ -87,7 +87,7 @@ function Home() {
           <Link to={"/Pokemons/6"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/KalosG6.png"
+              src="/assets/images/regionsMap/KalosG6.png"
               alt="Region Kalos"
             />
           </Link>
@@ -99,7 +99,7 @@ function Home() {
           <Link to={"/Pokemons/7"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/AlolaG7.png"
+              src="/assets/images/regionsMap/AlolaG7.png"
               alt="Region Alola"
             />
           </Link>
@@ -111,7 +111,7 @@ function Home() {
           <Link to={"/Pokemons/8"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/GalarG8.png"
+              src="/assets/images/regionsMap/GalarG8.png"
               alt="Region Galar"
             />
           </Link>
@@ -123,7 +123,7 @@ function Home() {
           <Link to={"/Pokemons/9"}>
             <img
               className="regionImg"
-              src="./src/assets/images/regionsMap/PaldeaG9.png"
+              src="/assets/images/regionsMap/PaldeaG9.png"
               alt="Region Paldea"
             />
           </Link>
