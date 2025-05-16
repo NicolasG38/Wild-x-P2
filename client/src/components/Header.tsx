@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router";
-import WildexlogoV1 from "../assets/images/WildexlogoV1.png";
+import WildexlogoV1 from "/assets/images/WildexlogoV1.png";
 import BurgerMenu from "./BurgerMenu";
 
 function Header() {

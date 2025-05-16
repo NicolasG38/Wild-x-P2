@@ -1,9 +1,9 @@
 import "../App.css";
 import "./Footer.css";
 import { useState } from "react";
-import BlueskyLogoWhite from "../assets/images/logoSocial/BlueskyLogoWhite.png";
-import instagramLogoWhite from "../assets/images/logoSocial/InstagramLogoWhite.png";
-import threadsLogoWhite from "../assets/images/logoSocial/threadsLogoWhite.png";
+import BlueskyLogoWhite from "/assets/images/logoSocial/BlueskyLogoWhite.png";
+import instagramLogoWhite from "/assets/images/logoSocial/InstagramLogoWhite.png";
+import threadsLogoWhite from "/assets/images/logoSocial/threadsLogoWhite.png";
 
 function Footer() {
   const [email, setEmail] = useState("");
