@@ -1,9 +1,6 @@
 import "../App.css";
 import "./Footer.css";
 import { useState } from "react";
-import BlueskyLogoWhite from "/assets/images/logoSocial/BlueskyLogoWhite.png";
-import instagramLogoWhite from "/assets/images/logoSocial/InstagramLogoWhite.png";
-import threadsLogoWhite from "/assets/images/logoSocial/threadsLogoWhite.png";
 
 function Footer() {
   const [email, setEmail] = useState("");
@@ -61,7 +58,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src={BlueskyLogoWhite}
+                src="/assets/images/logoSocial/BlueskyLogoWhite.png"
                 alt="Instagram"
                 className="social-icon"
               />
@@ -72,7 +69,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src={threadsLogoWhite}
+                src="/assets/images/logoSocial/threadsLogoWhite.png"
                 alt="Threads"
                 className="social-icon"
               />
@@ -83,7 +80,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src={instagramLogoWhite}
+                src="/assets/images/logoSocial/InstagramLogoWhite.png"
                 alt="Twitter"
                 className="social-icon"
               />
