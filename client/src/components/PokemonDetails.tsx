@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import typeColors from "./TypeColors";
 import "./PokemonDetails.css";
 import "charts.css";
@@ -197,7 +197,7 @@ function PokemonDetails() {
             {evolution.map((evo) => (
               <>
                 <section className="pokemon-evo-img-name" key={evo.name}>
-                  <a href={`/pokemonDetails/${evo.name}`}>
+                  <Link to={`/pokemonDetails/${evo.name}`}>
                     <img
                       className="pokemon-evo-img"
                       src={evo.image}
@@ -206,7 +206,7 @@ function PokemonDetails() {
                     <p className="pokemon-evo-name">
                       {evo.name.charAt(0).toUpperCase() + evo.name.slice(1)}
                     </p>
-                  </a>
+                  </Link>
                 </section>
               </>
             ))}
