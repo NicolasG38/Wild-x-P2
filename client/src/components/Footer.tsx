@@ -58,7 +58,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src="images/logoSocial/BlueskyLogoWhite.png"
+                src="/images/logoSocial/BlueskyLogoWhite.png"
                 alt="Instagram"
                 className="social-icon"
               />
@@ -69,7 +69,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src="images/logoSocial/threadsLogoWhite.png"
+                src="/images/logoSocial/threadsLogoWhite.png"
                 alt="Threads"
                 className="social-icon"
               />
@@ -80,7 +80,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                src="images/logoSocial/InstagramLogoWhite.png"
+                src="/images/logoSocial/InstagramLogoWhite.png"
                 alt="Twitter"
                 className="social-icon"
               />
