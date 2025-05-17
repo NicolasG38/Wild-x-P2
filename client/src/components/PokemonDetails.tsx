@@ -46,7 +46,9 @@ function PokemonDetails() {
   const [evolution, setEvolution] = useState<{ name: string; image: string }[]>(
     [],
   );
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]); // Trigger the effect when the pathname changes
   useEffect(() => {
     // Fetch les données du Pokémon en utilisant l'API
     if (name) {
