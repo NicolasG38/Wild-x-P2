@@ -41,6 +41,7 @@ footer > section > .social {
   height: 30px;
   width: 30px;
   margin: 0 1vw;
+  color:#000;
 }
 .input-subscribe {
   display: flex;
