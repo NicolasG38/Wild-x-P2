@@ -3,6 +3,7 @@ footer {
   justify-content: space-around;
   background-color: #ff0000;
   height: 150px;
+  width: 100%;
   margin-top: 2rem;
 }
 footer > .social-legal {
@@ -27,7 +28,6 @@ footer > section > .legal {
   align-items: center;
   width: 100%;
   height: 100%;
-  color: #fdfdfd;
 }
 footer > section > .social {
   display: flex;
@@ -55,7 +55,7 @@ footer > section > .social {
   border-left: 1px solid #fdfdfd;
   border-radius: 5px;
   background-color: #ff4444;
-  color: #fdfdfd;
+  color: #333;
   &::placeholder {
     color: #ffaaaa;
     text-align: center;
@@ -72,7 +72,8 @@ footer > section > .social {
   outline: none;
   border: 2px solid #ff0000;
   border-radius: 5px;
-  background-color: #fdfdfd;
+  background-color: #333;
+  color: #fdfdfd;
 }
 
 footer > .subscribe {
